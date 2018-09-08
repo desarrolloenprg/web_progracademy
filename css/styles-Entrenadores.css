@@ -1,0 +1,189 @@
+.intro-lead-in-entrenadores{
+	font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif !important;
+	font-style: normal !important;
+}
+
+h1{
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 600 !important;
+    line-height: 1em;
+}
+
+.intro-lead-in-entrenadores-text{
+	font-size: 1.8em !important;
+	color: #a61c00; 
+}
+
+.img-circle
+{
+	background-color: #ff5722 !important;
+}
+
+#img-logo{
+    max-width: auto !important;
+}
+
+p.sangria {
+    text-indent: 40px;
+}
+
+header#home-entrenadores{
+  height: 1000px;
+  text-align: center;
+  color: white;
+  background-image: url("../img/prg/fondo5.jpeg");
+  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#impacto{
+	height: 900px;
+	text-align: center;
+	color: white;
+	background-image: url("../img/prg/fondo6.jpeg");
+	
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+  
+  
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  
+
+  .title-impacto
+  {
+	color: #ff5722;
+	font-size: 1.5em;
+	font-weight: 600;
+	font-size: 2em;
+  }
+
+.section-gesf
+{
+	/*background-color: #212529 !important; */
+	background-color: #ecf0f1;
+}
+
+
+
+@media only screen and (min-width: 1024px) 
+ {
+    #img-logo{max-width: 850px !important;}
+
+	.intro-lead-in-entrenadores{font-size: 1em !important;}
+
+	.intro-lead-in-entrenadores-text, .et_pb_button{font-size: 1.8em !important; }
+ }
+
+ @media only screen and (max-width: 992px) 
+ {
+	.intro-lead-in-entrenadores-text, .et_pb_button{font-size: 1.5em !important; }
+ }
+
+ @media only screen and (max-width: 768px) 
+ {  
+	.intro-lead-in-entrenadores-text, .et_pb_button{font-size: 1.2em !important;}
+ }
+
+ @media only screen and (max-width: 576px) 
+ {
+	.intro-lead-in-entrenadores-text, .et_pb_button{ font-size: 0.8em !important; }
+ }
+
+
+ .et_pb_button {
+    position: relative;
+    padding: 0.3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em !important;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.et_pb_more_button {
+    display: inline-block;
+    margin-top: 20px;
+    color: inherit;
+    text-shadow: none;
+    text-decoration: none;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+ a.et_pb_more_button:after {
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+    text-transform: none;
+    speak: none;
+}
+
+.et_pb_module .et_pb_button:hover, .et_pb_button:hover {
+    padding: 0.3em 2em 0.3em 1em;
+    border: 2px solid transparent;
+}
+
+.et_pb_button:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+#et_pb_button:hover {
+	text-decoration: none;
+	color: white !important;
+}
+
+.et_pb_button:hover:after, .et_pb_more_button:hover:after, .et_pb_promo_button:hover:after, .et_pb_newsletter_button:hover:after, .et_pb_pricing_table_button:hover:after {
+    margin-left: 0;
+	opacity: 1;
+	color: white !important;
+}
+
+.et_pb_button:before, .et_pb_button:after {
+	font-family: "ETmodules" !important;
+	font-weight: 600 !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    -webkit-font-smoothing: antialiased;
+	margin-left: -1em;
+	font-size: 15px;
+    opacity: 0;
+    line-height: 2em !important;
+	/*content: "\35" !important;*/ 
+    -webkit-transition: all 0.2s !important;
+	-moz-transition: all 0.2s !important;
+	transition: all 0.2s;
+}
